@@ -1,0 +1,9 @@
+Before starting work: 
+git pull
+
+After completing your work:
+git add . or git add file_name.py
+
+git commit -m "Updated course programs"
+
+git push
