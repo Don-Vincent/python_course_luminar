@@ -1,4 +1,7 @@
+For directory control:
 cd .\python_course_luminar 
+
+
 Before starting work: 
 git pull
 
