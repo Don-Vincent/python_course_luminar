@@ -24,6 +24,8 @@ item = ["python", 10, 7.5, True, "python", []]
 # It allows duplicate elements
 # Each elements has its index position(zero based index)
 # Hetrogeneous(allows values of all data types)
+# List is mutable
+# iterable
 
 # List Methods
 # item = []
@@ -76,3 +78,7 @@ print(numbers_1)
 numbers_1.reverse()
 print(numbers_1) # in position reverse
 # [20, 10, 9, 6, 5, 5, 3, 3, 1, 1]
+
+numbers_1.clear()
+print(numbers_1)
+# empty list []

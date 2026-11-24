@@ -6,6 +6,7 @@ strings are collection of characters. they are immutable.(letters, numbers, symb
 duplicate characters are allowed in strings. 
 index positioning (zero based index positioning) is used to access the characters in a string.
 string is iterable. we can iterate through the string using for loop.(like range, list, tuple, etc)
+string is immutable
 """
 
 # Slicing
