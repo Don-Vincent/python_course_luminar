@@ -1,9 +1,15 @@
-numbers  = [2, 7, 11, 15, 3, 5, 6]
+numbers  = [2, 7, 11, 15, 5]
 target = 9
 # return the index of two numbers from the list of their sum equals the target
 
 
-
+def two_sum(numbers, target):
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if numbers[i] + numbers[j] == target:
+                return [i, j]
+    print([])   
+print(two_sum(numbers, target))
 
 # def two_sum(numbers, target):
 
