@@ -73,4 +73,3 @@ print(dict.keys()) # dict_keys(['name', 'age', 'weight', 'place'])
 print(dict.values()) #dict_values(['Don', 23, 56, 'Delhi'])
 print(dict.items()) #dict_items([('name', 'Don'), ('age', 23), ('weight', 56), ('place', 'Delhi')])
 print(dict.pop("name")) # Don
-print(dict.update())
